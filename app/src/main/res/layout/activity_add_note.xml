@@ -38,10 +38,12 @@
 
         android:padding="@dimen/_12dp"
         android:textSize="@dimen/text_size_20sp"
+        android:importantForAutofill="no"
         android:maxLines="1"
         android:ellipsize="end"
         android:hint="@string/title_note_hint"
         android:fontFamily="@font/poppins"
+        android:inputType="text"
 
         android:background="@drawable/orange_border_1dp"
         android:layout_marginTop="@dimen/_16dp"
@@ -53,12 +55,14 @@
         android:layout_height="0dp"
 
         android:hint="@string/content_note_hint"
+        android:importantForAutofill="no"
         android:gravity="top"
         android:padding="@dimen/_12dp"
         android:textSize="@dimen/text_size_18sp"
         android:fontFamily="@font/poppins"
         android:layout_marginTop="@dimen/_16dp"
         android:background="@drawable/orange_border_1dp"
+        android:inputType="text"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edt_title" />
